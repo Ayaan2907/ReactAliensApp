@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to left, rgb(99, 203, 58), rgb(124, 168, 204)) repeat scroll 30% 10%
 }
 
-code {
+code  {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
