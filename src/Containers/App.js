@@ -1,9 +1,9 @@
 import React, { Fragment, Component } from 'react';
 import CardList from '../Components/CardList';
-import { robos } from '../Components/roboList'
 import SearchBoxName from '../Components/SearchBox.js'
 import Scroll from '../Components/Scroll'
 import './App.css'
+// import { robos } from '../Components/roboList'
 
 
 class App extends Component {
@@ -33,9 +33,10 @@ class App extends Component {
 
 
       render() {
+            const {robos, SearchInputName} = this.state;
 
-            const filterRoboByName = this.state.robos.filter(robo =>
-                  robo.name.toLowerCase().includes(this.state.SearchInputName.toLowerCase()));
+            const filterRoboByName = robos.filter(robo =>
+                  robo.name.toLowerCase().includes(SearchInputName.toLowerCase()));
 
 
             return (!robos.length ?
