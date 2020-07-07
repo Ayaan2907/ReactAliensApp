@@ -1,8 +1,9 @@
 import React, { Fragment, Component } from 'react';
-import CardList from './CardList';
-import { robos } from './roboList'
-import SearchBoxName from './SearchBox.js'
-import Scroll from './Scroll'
+import CardList from '../Components/CardList';
+import { robos } from '../Components/roboList'
+import SearchBoxName from '../Components/SearchBox.js'
+import Scroll from '../Components/Scroll'
+import './App.css'
 
 
 class App extends Component {
@@ -40,8 +41,8 @@ class App extends Component {
             return (!robos.length ?
                   <h1>waiting&#10148;&#10148;&#10148;</h1> :
                   <Fragment>
-                        <div className='tc'>
-                              <h1>alien Friends</h1>
+                        <div className='tc '>
+                              <h1 className='custome'>alien Friends</h1>
                               <SearchBoxName onSearchByName={this.onSearchByName} />
 
                               <Scroll>

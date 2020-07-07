@@ -1,3 +1,6 @@
+ // ALERT !!!  THIS COMPONENT FILE IS NO LONGER USED IN THE PROJECT. INSTEAD OF THIS, DATA WAS FETCHED FROM 
+//  'https://jsonplaceholder.typicode.com/users'
+
 export const robos =
  [
       {
