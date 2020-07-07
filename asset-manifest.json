@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactAliansApp/static/css/main.08b72025.chunk.css",
+    "main.js": "/ReactAliansApp/static/js/main.852f8656.chunk.js",
+    "main.js.map": "/ReactAliansApp/static/js/main.852f8656.chunk.js.map",
+    "runtime-main.js": "/ReactAliansApp/static/js/runtime-main.7e57e5d2.js",
+    "runtime-main.js.map": "/ReactAliansApp/static/js/runtime-main.7e57e5d2.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/ReactAliansApp/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7e5e0908.chunk.js": "/ReactAliansApp/static/js/2.7e5e0908.chunk.js",
+    "static/js/2.7e5e0908.chunk.js.map": "/ReactAliansApp/static/js/2.7e5e0908.chunk.js.map",
+    "index.html": "/ReactAliansApp/index.html",
+    "precache-manifest.a6a159e678fde3c4a7be164137959dd6.js": "/ReactAliansApp/precache-manifest.a6a159e678fde3c4a7be164137959dd6.js",
+    "service-worker.js": "/ReactAliansApp/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/ReactAliansApp/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.08b72025.chunk.css.map": "/ReactAliansApp/static/css/main.08b72025.chunk.css.map",
+    "static/js/2.7e5e0908.chunk.js.LICENSE.txt": "/ReactAliansApp/static/js/2.7e5e0908.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e57e5d2.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7e5e0908.chunk.js",
+    "static/css/main.08b72025.chunk.css",
+    "static/js/main.852f8656.chunk.js"
+  ]
+}
