@@ -2,6 +2,7 @@ import React, { Fragment, Component } from 'react';
 import CardList from './CardList';
 import { robos } from './roboList'
 import SearchBoxName from './SearchBox.js'
+import Scroll from './Scroll'
 
 class App extends Component {
       constructor() {
@@ -44,15 +45,17 @@ class App extends Component {
 
             return (!robos.length ?
                   <h1>waiting&#10148;&#10148;&#10148;</h1> :
-                  <Fragment>
+                 <Fragment>
                         <div className='tc'>
                               <h1>alien Friends</h1>
                               <SearchBoxName onSearchByName={this.onSearchByName} />
 
-                              <hr /><hr />
-                              {/* <CardList robos={this.state.robos} /> */}
-                              <CardList robos={filterRoboByName} />
+                       <Scroll>
+                             {/* <CardList robos={this.state.robos} /> */}
+                             <CardList robos={filterRoboByName} />
+                       </Scroll>
 
+                              
                         </div>
                   </Fragment>
             );
