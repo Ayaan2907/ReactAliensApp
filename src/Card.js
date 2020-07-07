@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
 
 
-
-
 const Card = ({ name, username, id }) => {
 
       return (
@@ -27,4 +25,6 @@ const Card = ({ name, username, id }) => {
       );
 
 }
+
+
 export default Card;
