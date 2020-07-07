@@ -8,7 +8,8 @@ const CardList = ({ robos }) => {
                               key={robos[i].id}
                               id={robos[i].id}
                               name={robos[i].name}
-                              device={robos[i].device}
+                              username={robos[i].username}
+                             
                         />
                   );
             });

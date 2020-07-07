@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 
 
 
-const Card = ({ name, device, id }) => {
+const Card = ({ name, username, id }) => {
 
       return (
             <Fragment>
@@ -16,8 +16,8 @@ const Card = ({ name, device, id }) => {
                         </img>
 
                         <div >
-                              <h1> {name} </h1>
-                              <p className='blue br bb bg-white' >{device}</p>
+                              <h1 title={`name: ${name} `}> {name} </h1>
+                              <p className='blue br bb bg-white' title={`username: ${username}`}>{username}</p>
 
                         </div>
 
