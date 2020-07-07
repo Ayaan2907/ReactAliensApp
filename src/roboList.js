@@ -60,28 +60,28 @@ export const robos =
             device: 'IBM',
 
       },
-      {
-            id: 'R10',
-            name: 'J',
-            device: 'Compaq',
+      // {
+      //       id: 'R10',
+      //       name: 'J',
+      //       device: 'Compaq',
 
-      },
-      {
-            id: 'R11',
-            name: 'K',
-            device: 'Sony',
+      // },
+      // {
+      //       id: 'R11',
+      //       name: 'K',
+      //       device: 'Sony',
 
-      },
-      {
-            id: 'R12',
-            name: 'L',
-            device: 'Lorem',
+      // },
+      // {
+      //       id: 'R12',
+      //       name: 'L',
+      //       device: 'Lorem',
 
-      },
-      {
-            id: 'R13',
-            name: 'Alien',
-            device: 'alienware',
+      // },
+      // {
+      //       id: 'R13',
+      //       name: 'Alien',
+      //       device: 'alienware',
 
-      },
+      // },
 ]
