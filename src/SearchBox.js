@@ -6,7 +6,7 @@ const SearchBoxName = ({SearchInputName, onSearchByName})=>{
                   <input 
                   className='bg-light-blue dib br3 pa3 ma2 bw1 tc grow shadow 50px '
                   type="search" 
-                  placeholder='here search alians by name '
+                  placeholder='here search aliens by name '
                   onChange={onSearchByName} /* onChange is an html property*/
                   />
 
@@ -16,20 +16,5 @@ const SearchBoxName = ({SearchInputName, onSearchByName})=>{
      );
 }
 
-// const SearchBoxDevice = ({SearchInputDevice, onSearchByDevice})=>{
-//       return(
-//             <div className='pa3 tc'>
-//                   <input 
-//                   className='bg-light-blue dib br3 pa3 ma2 bw1 tc grow shadow 50px '
-//                   type="search" 
-//                   placeholder='here search alians by name '
-//                   onChange={onSearchByDevice} /* onChange is an html property*/
-//                   />
 
-//             </div>
-            
-           
-//      );
-// }
-// export {SearchBoxName, SearchBoxDevice};
 export default SearchBoxName;

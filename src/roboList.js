@@ -80,8 +80,8 @@ export const robos =
       },
       {
             id: 'R13',
-            name: 'Alian',
-            device: 'Alianware',
+            name: 'Alien',
+            device: 'alienware',
 
       },
 ]
