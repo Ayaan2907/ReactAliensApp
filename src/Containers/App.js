@@ -44,6 +44,7 @@ class App extends Component {
                   <Fragment>
                         <div className='tc '>
                               <h1 className='custome'>alien Friends</h1>
+                              <p className='custome'>type the name of alien you want from here</p>
                               <SearchBoxName onSearchByName={this.onSearchByName} />
 
                               <Scroll>
